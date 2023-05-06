@@ -272,7 +272,7 @@ function renderOperation(operationList, status, operationId, operationDescriptio
 }
 
 function timeFormat(time) {
-    let finalTime = ''
+    let finalTime;
     let hours = 0;
     while (time >= 60) {
         hours++;
